@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HWMS.BAL\HWMS.BAL.csproj" />
+    <ProjectReference Include="..\HWMS.DTO\HWMS.DTO.csproj" />
+    <ProjectReference Include="..\HWMS.Utility\HWMS.Utility.csproj" />
+  </ItemGroup>
+
+
+</Project>
